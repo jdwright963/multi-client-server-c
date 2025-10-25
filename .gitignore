@@ -8,6 +8,3 @@ client
 
 # Debug files
 *.dSYM/
-
-# Socket file
-/tmp/socket2

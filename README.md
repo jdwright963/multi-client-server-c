@@ -44,7 +44,7 @@ The system consists of two main components:
    - Listens for incoming client connections on a UNIX domain socket
    - Creates a new thread for each connected client
    - Maintains a thread-safe array of active client connections
-   - Broadcasts acknowledgment messages back to clients
+   - Sends acknowledgment messages back to the client that sent the message
    - Handles graceful shutdown on receiving "Shutdown" command
 
 2. **Client (`client.c`)**:
