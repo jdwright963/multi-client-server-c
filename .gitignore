@@ -1,0 +1,13 @@
+# Compiled binaries
+server
+client
+
+# Object files
+*.o
+*.so
+
+# Debug files
+*.dSYM/
+
+# Socket file
+/tmp/socket2
